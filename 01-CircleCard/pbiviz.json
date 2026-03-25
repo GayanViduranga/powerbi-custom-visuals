@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "CircleCard",
+    "displayName": "CircleCard",
+    "guid": "CircleCard0433AB3E049644B28F60F242962F129B",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "A circle card visual that displays a measure value inside a circle.",
+    "supportUrl": "https://example.com",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "Gayan Viduranga",
+    "email": "gayan@example.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}
