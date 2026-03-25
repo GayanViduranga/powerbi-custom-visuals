@@ -1,0 +1,10 @@
+# Node modules for all projects
+**/node_modules/
+**/dist/
+**/.tmp/
+**/build/
+**/*.pbiviz
+**/webpack.statistics.*.html
+
+# Power BI
+*.pbix
