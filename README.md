@@ -2,6 +2,15 @@
 
 A collection of custom Power BI visuals built with TypeScript, D3.js and the Power BI Visuals SDK.
 
+# Most popular in real Power BI custom visuals
+| Rank | Technology   | Why                                                |
+| ---- | ------------ | -------------------------------------------------- |
+| 1    | D3.js + SVG  | Most flexible, official Microsoft tutorials use it |
+| 2    | React + HTML | Best for complex UI visuals                        |
+| 3    | ECharts      | Easy to use, beautiful charts, good performance    |
+| 4    | Chart.js     | Simple and lightweight                             |
+| 5    | WebGL        | Used for very advanced 3D visuals                  |
+
 ## Visuals
 
 | # | Visual | Technology | Description |
@@ -18,3 +27,7 @@ A collection of custom Power BI visuals built with TypeScript, D3.js and the Pow
 **Gayan Viduranga**  
 Business Analyst | Data Science Enthusiast  
 Sri Lanka
+
+
+
+pbiviz package

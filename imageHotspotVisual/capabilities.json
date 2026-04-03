@@ -1,0 +1,80 @@
+{
+  "privileges": [
+    {
+      "name": "WebAccess",
+      "essential": true,
+      "parameters": [
+        "https://*",
+        "http://*"
+      ]
+    }
+  ],
+  "dataRoles": [
+    {
+      "displayName": "Image URL",
+      "name": "imageUrl",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "X",
+      "name": "x",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Y",
+      "name": "y",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Grade",
+      "name": "grade",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Tooltip",
+      "name": "tooltips",
+      "kind": "GroupingOrMeasure"
+    },
+    {
+      "displayName": "Errors",
+      "name": "errors",
+      "kind": "GroupingOrMeasure"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "select": [
+            { "for": { "in": "imageUrl" } },
+            { "for": { "in": "x" } },
+            { "for": { "in": "y" } },
+            { "for": { "in": "grade" } },
+            { "for": { "in": "tooltips" } },
+            { "for": { "in": "errors" } }
+          ]
+        }
+      }
+    }
+  ],
+  "tooltips": {
+    "supportedTypes": {
+      "default": true,
+      "canvas": true
+    },
+    "roles": [
+      "tooltips"
+    ]
+  },
+  "objects": {
+    "markerSettings": {
+      "properties": {
+        "tagSize": {
+          "type": {
+            "numeric": true
+          }
+        }
+      }
+    }
+  }
+}

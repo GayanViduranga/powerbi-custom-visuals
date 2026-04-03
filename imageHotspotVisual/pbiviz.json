@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "imageHotspotVisual",
+    "displayName": "Image Hotspot Visual",
+    "guid": "imageHotspotVisual23D8B823CF134D3AA7CC0A5D63B20B7F",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Custom image with hotspots",
+    "supportUrl": "https://www.example.com",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "Gayan Viduranga",
+    "email": "gayan@example.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}
